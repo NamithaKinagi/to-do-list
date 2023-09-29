@@ -1,0 +1,79 @@
+.form-filter__container {
+    max-width: 100%;
+    margin: 40px 0;
+  }
+  p {
+    text-align: center;
+  }
+  
+  .todo-form {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .todo-input {
+    width: 86%;
+    padding: 10px 12px;
+    border-radius: 5px;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  
+  .todo-input:focus {
+    outline: 2px solid #F2BFF1;
+    background: rgba(255, 255, 255, 0.6);
+    box-shadow: 0 4px 30px rgb(242, 191, 241);
+  }
+  
+  .todo-button {
+    width: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F2BFF1;
+    color: rgb(11, 0, 47);
+  }
+  
+  .todo-button:hover {
+    opacity: 0.7;
+    color: white;
+  }
+  
+  .filter-todo {
+    background-color: white;
+    padding: 3px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    width: 130px;
+  }
+  
+  .select {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .filter-button {
+    padding: 2px 12px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 3px;
+    background-color: azure;
+    cursor: pointer;
+  }
+  
+  .filter-button:hover {
+    background-color: #acfff7;
+    color: black;
+  }
+  
+  .active {
+    background-color: #acfff7;
+    color: black;
+  }
+  

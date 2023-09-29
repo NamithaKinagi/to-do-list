@@ -1,0 +1,38 @@
+h1 {
+    font-size: 3rem;
+    margin-top: 60px;
+  }
+  
+  .App {
+    align-content: center;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  .remove-all-btn {
+    margin: 30px auto;
+    width: fit-content;
+    border: none;
+    background: rgba(255, 255, 255, 0.219);
+    background-blend-mode: screen, screen, lighten, overlay, lighten, difference, normal;
+    color: rgba(66, 0, 41, 0.705);
+    font-weight: 400;
+    cursor: pointer;
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: 1px solid white;
+    margin-bottom: 100px;
+  }
+  
+  .remove-all-btn:hover {
+    color:#ff6dfd;
+    border: 1px solid #ff6dfd;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    h1 {
+      font-size: 1.5rem;
+      line-height: 0.8rem;
+    }
+  }
+  

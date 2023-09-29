@@ -1,0 +1,38 @@
+.todo-row {
+    max-width: 700px;
+    background-color: white;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 4% 85% 4%;
+    gap: 3%;
+    padding: 12px;
+    border-radius: 5px;
+  }
+  
+  .todo-row > li {
+    width: 90%;
+    list-style-type: none;
+    height: auto;
+    word-wrap: break-word;
+  }
+  
+  .icons {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+  }
+  
+  .icons:hover {
+    opacity: 0.3;
+  }
+  
+  .completed {
+    opacity: 0.3;
+  }
+  
+  .completed > li {
+    font-style: italic;
+    text-decoration: line-through;
+  }
+  
+  
